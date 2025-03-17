@@ -26,8 +26,13 @@ programa
 
 		se(idade <10){
 			escreva("Nome: ", nome,  "\nIdade: ",idade, "\nCaregoria: ", "Escolinha")
-		}senao se(idade > 9 e idade <18 )
+		}senao se(idade > 9 e idade <18 ){
 			escreva("Nome: ", nome,  "\nIdade: ",idade, "\nCaregoria: ", "Categorias de base") 
+		}senao se(idade > 17 e idade <41 )
+			escreva("Nome: ", nome,  "\nIdade: ",idade, "\nCaregoria: ", "Profissional") 
+		senao se(idade > 40 ){
+			escreva("Nome: ", nome,  "\nIdade: ",idade, "\nCaregoria: ", "Master")		
+	}
 			
 			
 	}
@@ -37,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 444; 
+ * @POSICAO-CURSOR = 144; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
